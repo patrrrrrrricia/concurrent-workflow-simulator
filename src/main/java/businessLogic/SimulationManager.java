@@ -7,6 +7,14 @@ import java.util.*;
 import java.io.*;
 
 ///---------------------CLASA SIMULATIONMANAGER-----------------
+///
+/// creierul aplicatiei
+/// server-casa marcat, task-client
+/// -> SIMULATIONMANAGER e managerul magazinului
+/// implementeaza runnable->ruleaza pe un fir de executie separat
+///
+///
+///
 //gestioneaza firul principal al simularii si calculeaza
 //statisticile finale(waiting time, service time, peak hour)
 public class SimulationManager implements Runnable
@@ -31,6 +39,7 @@ public class SimulationManager implements Runnable
         this.selectionPolicy = policy;
         this.frame = frame;
 
+        //planificatorul
         //initializeaza obiectul scheduler cu un numar specific de servere (cozi de asteptare)
         this.scheduler = new Scheduler(numberOfServers);
         //seteaza strategia de repartizare a task urilor(ex: shortest queue sau shortest time)

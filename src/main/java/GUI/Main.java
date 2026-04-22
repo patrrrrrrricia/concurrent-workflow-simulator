@@ -3,6 +3,10 @@ package GUI;
 import GUI.SimulationFrame;
 
 ///---------------------CLASA MAIN-----------------
+///
+/// pornire aplicatie
+///
+///
 public class Main
 {
     //metoda main este prima care se executa la pornirea programul

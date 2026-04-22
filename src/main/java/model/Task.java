@@ -1,6 +1,11 @@
 package model;
 
 ///---------------------CLASA TASK-----------------
+///
+/// clientul
+/// descriere client, inf clienti
+///
+///
 //defineste structura unui client/proces din cadrul simularii
 public class Task
 {

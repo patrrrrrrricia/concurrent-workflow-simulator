@@ -5,6 +5,10 @@ import model.Task;
 import java.util.List;
 
 ///---------------------CLASA SHORTESTTIMESTRATEGY-----------------
+///
+/// strategie: clientul se uita la timpul de asteptare
+/// clientul emrge la coada unde are cel mai putin de asteptat(in functie de min etc, nu cont nr oamenilor)
+///
 //implementeaza strategia de add a clientilor
 //in coada cu cel mai mic timp de asteptare
 public class ShortestTimeStrategy implements Strategy

@@ -4,6 +4,12 @@ import model.*;
 import java.util.*;
 
 ///---------------------CLASA SCHEDULER-----------------
+///
+/// coordonarea intregului sistem
+/// primeste clientii care sosesc si decid in care cozi sa trimita
+/// pe baza unei strategii alese
+
+///creare si gestionare cozi
 //pt a gestiona cozile (servere)
 //si distribuirea clientilor (tasks) catre acestea conform unei strategii
 public class Scheduler
@@ -13,16 +19,20 @@ public class Scheduler
     //strategia curenta de distribuire (time sau queue)
     private Strategy strategy;
 
-    //constructorul scheduler ului.
+    //constructorul scheduler ului
     //maxNoServers-nr cozi de creat
     public Scheduler(int maxNoServers)
     {
+        //initializare lista care retine referintele serverelor
         this.servers = new ArrayList<>();
 
-        //creare nr de servere cerut
+        //iterare pt creare nr de servere cerut
         for (int i = 0; i < maxNoServers; i++)
         {
+            //initializ unui server nou(coada de asteptare)
             Server s = new Server();
+
+            //adauga serv in lista de gestiune
             servers.add(s);
 
             //pornire fir de executie(thread) pt fiecare coada
@@ -31,6 +41,7 @@ public class Scheduler
         }
     }
 
+    /// STRATEGIA
     //schimba strategia de distribuire in timpul executiei (design pattern: strategy).
     //policy-politica de selectie aleasa (shortest_queue sau shortest_time)
     public void changeStrategy(SelectionPolicy policy)

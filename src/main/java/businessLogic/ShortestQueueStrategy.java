@@ -5,6 +5,10 @@ import model.Task;
 import java.util.List;
 
 ///---------------------CLASA SHORTESTQUEUESTRATEGY-----------------
+///
+/// strategie: clientul se uita la nr de pers
+/// si merge la coada cu nr de peers mai mic(nu cont cate cump au)
+///
 //implementeaza strategia de adaugare a clientilor
 //in coada cu cei mai putini oameni
 public class ShortestQueueStrategy implements Strategy

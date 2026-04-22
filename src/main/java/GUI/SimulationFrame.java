@@ -9,6 +9,9 @@ import java.awt.*;
 
 
 ///---------------------CLASA SIMULATIONFRAME-----------------
+///
+/// interfata grafica
+///
 //defineste interfata grafica (gui) a aplicatiei
 public class SimulationFrame extends JFrame
 {
@@ -92,7 +95,7 @@ public class SimulationFrame extends JFrame
         bottomPanel.setBackground(BG_WHITE);
         bottomPanel.setBorder(new EmptyBorder(10, 40, 30, 40));
 
-        //configurarea butonului de start (roz)
+        //configurarea butonului de start
         JButton btnStart = new JButton("START SIMULATION");
         btnStart.setFont(new Font("SansSerif", Font.BOLD, 15));
         btnStart.setForeground(Color.WHITE);
@@ -101,7 +104,7 @@ public class SimulationFrame extends JFrame
         btnStart.setCursor(new Cursor(Cursor.HAND_CURSOR));
         btnStart.setBorder(BorderFactory.createEmptyBorder(12, 0, 12, 0));
 
-        //panel pentru afisarea statisticilor (roz)
+        //panel pentru afisarea statisticilor
         JPanel statsPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 30, 5));
         statsPanel.setBackground(BG_WHITE);
 

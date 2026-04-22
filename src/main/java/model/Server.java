@@ -5,6 +5,14 @@ import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.atomic.AtomicInteger;
 
 ///---------------------CLASA SERVER-----------------
+///
+/// proceseaza clientii unul cate unu
+/// munca efectiva de procesare a clientilor
+/// fir de executie(thread)
+/// gestionare coada
+/// metoda run
+/// calc timp de asteptare
+///
 //pt a putea rula pe un fir de executie (thread) separat
 public class Server implements Runnable
 {
