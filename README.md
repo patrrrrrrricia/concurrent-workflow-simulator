@@ -35,8 +35,8 @@ A robust Java desktop simulation tool designed to model and analyze multi-server
 ### Visual Documentation
 | UML Class Diagram | Layered Architecture |
 | :---: | :---: |
-| ![UML Diagram]() | <div align="center"> <img width="400" src="https://github.com/user-attachments/assets/09a55a45-e9ec-4635-bd16-165fd791ab27"> <br><br> <img width="853" height="1020" alt="image" src="https://github.com/user-attachments/assets/25a3796c-1dea-4fb3-be46-d055757a870a" />
-|
+| <img width="1452" height="1314" alt="image" src="https://github.com/user-attachments/assets/2f2ab9dc-f7f0-4dcf-b515-461bf20de21e" />
+<img width="853" height="1020" alt="image" src="https://github.com/user-attachments/assets/f8e47a24-5b5e-4a1c-a1aa-72fe63cb1fa4" />|
 
 ---
 
