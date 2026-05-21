@@ -17,7 +17,7 @@ public class SimulationFrame extends JFrame
 {
     //definirea paletei de culori utilizate in interfata (alb, negru si accente roz)
     private final Color BG_WHITE = Color.WHITE;               //fundal alb
-    private final Color PINK_ACCENT = new Color(255, 20, 147); //roz aprins pt elemente vizibile
+    private final Color PINK_ACCENT = new Color(218, 131, 147); //roz aprins pt elemente vizibile
     private final Color TEXT_BLACK = new Color(30, 30, 30);    //culoare text inchisa
     private final Color BORDER_LIGHT = new Color(220, 220, 220); //margini gri deschis
 

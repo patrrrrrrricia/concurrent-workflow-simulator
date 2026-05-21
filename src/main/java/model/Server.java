@@ -49,7 +49,7 @@ public class Server implements Runnable
         {
             try
             {
-                //verificam care este primul task din coada fara a-l scoate inca (peek)
+                //verificam care este primul task din coada fara a l scoate inca (peek)
                 Task currentTask = tasks.peek();
 
                 if (currentTask != null)

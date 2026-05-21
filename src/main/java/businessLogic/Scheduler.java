@@ -5,11 +5,13 @@ import java.util.*;
 
 ///---------------------CLASA SCHEDULER-----------------
 ///
+///PLANIFICATOR
 /// coordonarea intregului sistem
 /// primeste clientii care sosesc si decid in care cozi sa trimita
 /// pe baza unei strategii alese
-
 ///creare si gestionare cozi
+///
+///
 //pt a gestiona cozile (servere)
 //si distribuirea clientilor (tasks) catre acestea conform unei strategii
 public class Scheduler
