@@ -30,6 +30,13 @@ A robust Java desktop simulation tool designed to model and analyze multi-server
 * **`businessLogic`**: Implements the `SimulationManager`, `Scheduler`, and the `Strategy` pattern logic.
 * **`GUI`**: Handles the Swing interface and real-time state visualization.
 
+---
+
+### Visual Documentation
+| UML Class Diagram | Layered Architecture |
+| :---: | :---: |
+| ![UML Diagram]() | <div align="center"> <img width="400" src="https://github.com/user-attachments/assets/09a55a45-e9ec-4635-bd16-165fd791ab27"> <br><br> <img width="853" height="1020" alt="image" src="https://github.com/user-attachments/assets/25a3796c-1dea-4fb3-be46-d055757a870a" />
+|
 
 ---
 
