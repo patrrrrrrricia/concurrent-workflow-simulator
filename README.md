@@ -35,9 +35,7 @@ A robust Java desktop simulation tool designed to model and analyze multi-server
 ### Visual Documentation
 | UML Class Diagram | Layered Architecture |
 | :---: | :---: |
-| <img width="1452" height="1314" alt="image" src="https://github.com/user-attachments/assets/2f2ab9dc-f7f0-4dcf-b515-461bf20de21e" />
-<img width="853" height="1020" alt="image" src="https://github.com/user-attachments/assets/f8e47a24-5b5e-4a1c-a1aa-72fe63cb1fa4" />|
-
+| <img src="https://github.com/user-attachments/assets/2f2ab9dc-f7f0-4dcf-b515-461bf20de21e" width="400" /> | <img src="https://github.com/user-attachments/assets/f8e47a24-5b5e-4a1c-a1aa-72fe63cb1fa4" width="400" /> |
 ---
 
 © 2026 Queue Management Simulation | Developed by [**𝐋𝐞𝐨𝐧𝐭𝐞 𝐏𝐚𝐭𝐫𝐢𝐜𝐢𝐚-𝐌𝐢𝐫𝐚𝐛𝐞𝐥𝐚**](https://patrrrrrrricia.github.io/glowing-button/)
